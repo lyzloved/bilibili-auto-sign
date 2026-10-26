@@ -1,0 +1,13 @@
+# Keep credentials and local files out of Git
+.env
+.env.*
+!.env.example
+*.cookie
+cookies.txt
+secrets.json
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
